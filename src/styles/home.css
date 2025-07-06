@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Bebas Neue", sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: #811411;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: -30px;
+}
+
+h1 {
+    color: #811411;
+    margin-right: 8px;
+}
+
+button {
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    background-color: #10181a;
+    color: #beb08d;
+    font-weight: 1000;
+    font-size: 1.5rem;
+    font-family: "Amatic SC", sans-serif;
+    border-top: solid 3px #811411;
+    border-right:solid 3px #811411;
+    border-left: none;
+    border-bottom: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover,
+button:active {
+    background-color: #811411;
+}
+
+.banner {
+    border: solid 5px #10181a;
+    border-bottom: none;
+    border-radius: 10px;
+    margin-top: -40px;
+}
+
+.banner img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.favs {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px;
+}
+
+.dishes {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dish {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    gap: 10px;
+}
+
+.dish img {
+    width: 100%;
+    border: solid 5px #10181a;
+    border-bottom: none;
+    border-radius: 10px;
+}
+
+img + p {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Amatic SC", sans-serif;
+    border: 5px solid #811411;
+    border-bottom: none;
+    background-color: #10181a;
+    color: #beb08d;
+    border-radius: 10px;
+}
+
+.testimonial {
+    background-color: #10181a;
+    color: #beb08d;
+    text-align: center;
+    font-size: 2.2rem;
+    width: 100%;
+    padding: 2rem;
+}
+
+.testimonial p+p {
+    text-align: right;
+    font-family: "Amatic SC", sans-serif;
+}
