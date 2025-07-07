@@ -1,4 +1,5 @@
 import "./pages/home.js";
+import { createHomepage } from "./pages/home.js";
 
 const logo = document.querySelector(".logo");
 const home = document.querySelector("#home");
@@ -7,6 +8,7 @@ const about = document.querySelector("#about");
 
 home.addEventListener("click", () => {
     console.log("home page clicked")
+    createHomepage();
 });
 
 menu.addEventListener("click", () => {
@@ -19,4 +21,7 @@ about.addEventListener("click", () => {
 
 logo.addEventListener("click", () => {
     console.log("logo was clicked")
+    createHomepage();
 });
+
+createHomepage();
