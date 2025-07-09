@@ -11,22 +11,18 @@ const menu = document.querySelector("#menu");
 const about = document.querySelector("#about");
 
 home.addEventListener("click", () => {
-    console.log("home page clicked")
     createHomepage();
 });
 
 menu.addEventListener("click", () => {
-    console.log("menu was clicked")
     createMenu();
 });
 
 about.addEventListener("click", () => {
-    console.log("about page was clicked")
     createAbout();
 });
 
 logo.addEventListener("click", () => {
-    console.log("logo was clicked")
     createHomepage();
 });
 

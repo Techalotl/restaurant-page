@@ -8,8 +8,6 @@ import brownie from "../assets/brownie.jpg"
 import coffee from "../assets/coffee.jpg"
 import milkshakeImg from "../assets/milkshake.jpg"
 
-const content = document.querySelector("#content");
-
 export function createMenu () {
     content.innerHTML = "";
     const breakfasts = document.createElement("div");
