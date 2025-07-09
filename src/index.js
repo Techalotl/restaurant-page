@@ -2,6 +2,8 @@ import "./pages/home.js";
 import { createHomepage } from "./pages/home.js";
 import "./pages/menu.js";
 import { createMenu } from "./pages/menu.js";
+import "./pages/about.js"
+import { createAbout } from "./pages/about.js";
 
 const logo = document.querySelector(".logo");
 const home = document.querySelector("#home");
@@ -20,6 +22,7 @@ menu.addEventListener("click", () => {
 
 about.addEventListener("click", () => {
     console.log("about page was clicked")
+    createAbout();
 });
 
 logo.addEventListener("click", () => {
