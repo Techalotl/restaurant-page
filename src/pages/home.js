@@ -60,7 +60,7 @@ export function createHomepage () {
     testimonial.setAttribute("class", "testimonial");
     content.appendChild(testimonial);
     const chefQuote = document.createElement("p");
-    chefQuote.textContent = `"This is a 100% real testimonial of how good our this restaurant is according a very famous food critic that is never wrong, so come and visit or something!"`;
+    chefQuote.textContent = `"This is a 100% real testimonial of how good this restaurant is according a very famous food critic that is never wrong, so come and visit or something!"`;
     testimonial.appendChild(chefQuote);
     const chefName = document.createElement("p");
     chefName.textContent = `— Anton Ego (maybe)`;
