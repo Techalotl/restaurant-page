@@ -6,6 +6,7 @@ import lavaCake from "../assets/lavaCake.jpg"
 const content = document.querySelector("#content");
 
 export function createHomepage () {
+    content.innerHTML = "";
     const banner = document.createElement("div");
     banner.setAttribute("class","banner");
     content.appendChild(banner);
