@@ -167,12 +167,12 @@ export function createMenu () {
     milkshake.alt = "Milkshake with whipped cream on top. Photo by Kristina Paukshtite on pexels.com";
     dish8.appendChild(milkshake);
     const dish8Text = document.createElement("p");
-    dish8Text.textContent = "Caramel milkshake";
+    dish8Text.textContent = "Caramel Milkshake";
     dish8.appendChild(dish8Text);
     const milkshakeMenu = document.createElement("ul");
     drinksContent.appendChild(milkshakeMenu);
     const drinksItem5 = document.createElement("li");
-    drinksItem5.textContent = "Cookies and cream";
+    drinksItem5.textContent = "Cookies and Cream";
     milkshakeMenu.appendChild(drinksItem5)
     const drinksItem6 = document.createElement("li");
     drinksItem6.textContent = "Nutella";
